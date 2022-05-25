@@ -1,0 +1,11 @@
+const express = require("express");
+const router = express.Router();
+
+// All Compliant Of Courses
+router.get('/coach/show-comp', (req,res,next)=>{
+    
+    res.status(200).json({data:"Get-All-Compliant-Of-Courses"})
+    
+});
+
+module.exports = router;
